@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* Assignment 1 | COMP1073 Client-Side JavaScript */
+
+html,
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+body {
+background-image: url(board.jpg);
+background-repeat:no-repeat;
+background-size: cover;  
+color: white;
+}
+
+button{
+    background-color: rgba(14, 93, 158, 0.801);
+    text-align: center;
+    border: 1px solid rgba(7, 40, 66, 0.801);
+    border-width: 2px 1px 3px;
+    margin: 20px 10px;
+    color: white;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border: 3px solid #333;
+    margin-top: 15px;
+  }
+
+  thead {
+   background-color: rgba(46, 58, 68, 0.801) ; 
+   color: white;
+}
+
+  th,
+  td {
+    padding: 20px;
+  }
+ 
+ tbody tr:nth-child(even) {
+   background-color: #6e6a6aad
+ }
+ 
+ tbody tr:nth-child(odd){
+   background-color: #6e6a6aad;
+ }
